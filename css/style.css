@@ -68,7 +68,7 @@ p {
 
 /* Header */
 header {
-  background-image: url("/img/photo-1552393700-42696fb89bfa.png");
+  background-image: url("./img/photo-1552393700-42696fb89bfa.png");
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
@@ -190,7 +190,7 @@ header .socialIcons li {
 }
 
 .works .galleryWrap {
-  background-image: url("/img/photo-1561291386-5be50364cfb5.png");
+  background-image: url("./img/photo-1561291386-5be50364cfb5.png");
   background-repeat: no-repeat;
   background-position: center center;
   height: 1558px;
