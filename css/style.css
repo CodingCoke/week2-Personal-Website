@@ -1,11 +1,15 @@
 /* 基礎設置 */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", "微軟正黑體", sans-serif;
+}
+
+.container {
   text-align: center;
-  width: 1920px;
   margin: 0 auto;
-  box-sizing: border-box;
-  border: 1px solid gainsboro;
 }
 
 h1 {
@@ -67,7 +71,7 @@ p {
 }
 
 /* Header */
-header {
+.header {
   background-image: url("https://hexschool.github.io/webLayoutTraining1st/week2/banner.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -80,22 +84,22 @@ header {
   color: #fff;
 }
 
-body header .title {
+.header .title {
   padding-top: 100px;
   margin-bottom: 48px;
   text-align-last: left;
 }
 
-header .title span {
+.title span {
   line-height: 42px;
 }
 
-header .socialIcons {
+.header .socialIcons {
   display: flex;
   justify-content: space-between;
 }
 
-header .socialIcons li {
+.header .socialIcons li {
   margin: 0 8px;
 }
 
@@ -171,9 +175,16 @@ header .socialIcons li {
   margin-bottom: 48px;
 }
 
-.myBrand .gallery {
-  width: 1296px;
-  justify-content: space-around;
+.gallery {
+  width: 1200px;
+  justify-content: space-between;
+}
+
+.gallery .product:first-child{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
 }
 
 .myBrand .product {
