@@ -48,7 +48,7 @@ p {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  width: 1200px;
+  max-width: 1200px;
   justify-content: space-between;
 }
 
@@ -75,7 +75,7 @@ p {
   background-image: url("https://hexschool.github.io/webLayoutTraining1st/week2/banner.png");
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100%;
+  max-width: 100%;
   height: 960px;
   display: flex;
   justify-content: center;
@@ -176,7 +176,7 @@ p {
 }
 
 .gallery {
-  width: 1200px;
+  max-width: 1200px;
   justify-content: space-between;
 }
 
